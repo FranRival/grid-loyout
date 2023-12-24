@@ -1,0 +1,1 @@
+Este archivo es un ejemplo de Grid Loyout infinito. Utilizando wordpress sin plugins.
