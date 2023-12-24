@@ -5,7 +5,13 @@ display: grid;
 grid-template-rows: 100px 200px;
 grid-auto-columns: 100px;
 grid-auto-flow: column;
-row-gap: 15px;
+gap: 40px;
+
+
+/*
+column-gap: 15px;
+row-gap: 30px;
+*/
 
 
 
