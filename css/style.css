@@ -2,16 +2,16 @@
 border: 5px solid red;
 background-color: white;
 display: grid;
-grid-template-rows: 100px 200px;
-grid-auto-columns: 100px;
-grid-auto-flow: column;
+grid-template-columns: minmax(30px, 200px) 200px minmax(60px, 200px);
+grid-auto-rows: repeat(3, auto);
+
 }
 
 /*FUNCIONES ESPECIALES
 
 minmax
 repeat
-
+***tambien arreglamos el problema de que se rompe el texto
 */
 
 
