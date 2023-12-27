@@ -17,6 +17,7 @@ place-content: center;
     font-size: 4rem;
 }
 
+/* se puede utilizar grid-column-star, grid-column-end; o esta de abajo*/
 
 .item-1 {
 
