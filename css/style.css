@@ -7,6 +7,13 @@ grid-auto-columns: 100px;
 grid-auto-flow: column;
 }
 
+/*FUNCIONES ESPECIALES
+
+minmax
+repeat
+
+*/
+
 
 .item {
 
