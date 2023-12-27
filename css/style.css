@@ -2,16 +2,26 @@
 border: 5px solid red;
 background-color: white;
 display: grid;
-grid-template-columns: minmax(30px, 200px) 200px minmax(60px, 200px);
-grid-auto-rows: repeat(3, auto);
-
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
+
+.contenedor1 {
+border: 5px solid red;
+background-color: white;
+display: grid;
+margin-top: 100px;
+grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        
+    }
+    
 
 /*FUNCIONES ESPECIALES
 
-minmax
-repeat
-***tambien arreglamos el problema de que se rompe el texto
+fr : ancho o alto a filas y columnas, una fraccion de la linea
+min-content : ajusta el ancho de la celda, sin romper el contenido
+max-content : ensanchar las filas para que el contenido se vea lo mas amplio posible 
+auto-fill/auto-fit: ocupe el 100% del espacio. agrega columnas fantasmas. 
+
 */
 
 
@@ -21,21 +31,3 @@ repeat
     font-size: 4rem;
 }
 
-
-.item-1 {
-
-    border: 5px solid #f8bbd0;
-    background-color: #ffeeff;
-}
-
-.item-2{
-
-    border: 5px solid #e1bee7;
-    background-color: #fff1ff;
-}
-
-.item-3{
-
-    border: 5px solid #b2ebf2;
-    background-color: #e5ffff;
-}
